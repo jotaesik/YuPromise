@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="yu_promise">
+        <item name="android:textSize">
+            40sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+
+    <style name="next">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="id_input_text">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="pw_input_text">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="nickname_input_text">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="back">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="finish">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="number_input_text">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="some_finish">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="some_finish1">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="start">
+        <item name="android:textSize">
+            25dp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="text1">
+        <item name="android:textSize">
+            24dp
+        </item>
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="text2">
+        <item name="android:textSize">
+            24dp
+        </item>
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="text_person">
+        <item name="android:textSize">
+            10dp
+        </item>
+        <item name="android:textColor">
+            #878787
+        </item>
+
+    </style>
+    <style name="text_hand">
+        <item name="android:textSize">
+            10dp
+        </item>
+        <item name="android:textColor">
+            #787878
+        </item>
+
+    </style>
+    <style name="text_home">
+        <item name="android:textSize">
+            10dp
+        </item>
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="text_some">
+        <item name="android:textSize">
+            10dp
+        </item>
+        <item name="android:textColor">
+            #878787
+        </item>
+
+    </style>
+    <style name="other">
+        <item name="android:textSize">
+            20dp
+        </item>
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="text3">
+        <item name="android:textSize">
+            30dp
+        </item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="to_do_list">
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #3C3C3C
+        </item>
+
+    </style>
+    <style name="make_friend">
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="my_nickname">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="my_id_number">
+
+    <item name="android:textSize">
+        15sp
+    </item>
+
+    <item name="android:textColor">
+        #6667AB
+    </item>
+
+    </style>
+    <style name="remake">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #6667AB
+        </item>
+
+    </style>
+    <style name="we_where">
+
+        <item name="android:textSize">
+            30sp
+        </item>
+
+        <item name="android:textColor">
+            #6667AA
+        </item>
+
+
+    </style>
+    <style name="where_hot">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #F35757
+        </item>
+
+        <item name="android:shadowColor">
+            #40ED4141
+        </item>
+
+        <item name="android:shadowDx">
+            0
+        </item>
+
+        <item name="android:shadowDy">
+            4
+        </item>
+
+        <item name="android:shadowRadius">
+            4
+        </item>
+
+    </style>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Yu\nPromise</string>
+    <string name="yu_promise">Yu\nPromise</string>
+    <string name="back">BACK</string>
+    <string name="next">NEXT</string>
+    <string name="finish">FINISH</string>
+    <string name="id_input_text">아이디를 입력해주세요</string>
+    <string name="pw_input_text">비밀번호를 입력해주세요</string>
+    <string name="nickname_input_text">닉네임을 입력해주세요</string>
+    <string name="number_input_text">연락처를 입력해주세요</string>
+    <string name="some_finish">완료되었습니다</string>
+    <string name="some_finish1">새로운 라이프를 경험해보세요</string>
+    <string name="start">START</string>
+    <string name="text1">반갑습니다\n첫 약속을 설정해보세요</string>
+    <string name="text2">친구추가를 해보세요</string>
+    <string name="text3">가장 가까운 약속까지</string>
+    <string name="text_person">친구 관리</string>
+    <string name="text_hand">약속 하기</string>
+    <string name="text_home">매인</string>
+    <string name="text_some">더보기</string>
+    <string name="other">다른약속도 해야한다면?</string>
+    <string name="to_do_list">To do List</string>
+    <string name="make_friend">친구추가를 해보세요</string>
+    <string name="where_hot">주변장소 인근 핫플레이스</string>
+    <string name="remake">~ 프로필 편집 ~</string>
+    <string name="we_where">[약속장소 추천]</string>
+</resources>
