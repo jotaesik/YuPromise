@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="180dp"
+    android:layout_height="225dp"
+    android:elevation="1dp"
+    android:background="@drawable/custom_layout_line">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/first_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6667AB"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="비밀번호 확인"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/second_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:shadowColor="#40000000"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="비밀번호를 입력하세요"
+            android:textColor="#676767"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/first_edit"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="75dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:hint="비밀번호 입력"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:text=""
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/no_button"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_21"
+            android:elevation="1dp"
+            android:fontFamily="@font/test1"
+            android:text="취소"
+            android:textColor="#EB7171"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/yes_button"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_21"
+            android:elevation="1dp"
+            android:fontFamily="@font/test1"
+            android:text="확인"
+            android:textColor="#6AD861"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
