@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="친구추가를 해보세요!"
+            android:fontFamily="@font/test1"
+            android:textSize="30dp"
+            android:textColor="#6667AB"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:id="@+id/edit_nickname"
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rectangle_13"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:hint="닉네임을 입력"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/friend_add_button"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/shadow2"
+            android:fontFamily="@font/test1"
+            android:onClick="buttonAddFriendClicked"
+            android:text="추가"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:background="@drawable/list_view_border"
+        android:layout_width="match_parent"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_friend" />
+
+
+
+</LinearLayout>

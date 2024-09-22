@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp">
+        <TextView
+            android:id="@+id/promise_friend_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/test1"
+            android:text="친구들 닉네임"
+
+            android:textColor="#6667AB"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/choose_image"
+            android:src="@drawable/check_box"/>
+        </LinearLayout>
+</RelativeLayout>

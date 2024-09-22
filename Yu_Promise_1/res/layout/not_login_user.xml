@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_lar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/android_lar"
+    tools:context=".Not_Login_User_Activity">
+
+    <View
+        android:id="@+id/new123123_2"
+        android:layout_width="162dp"
+        android:layout_height="148dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="98dp"
+        android:background="@drawable/new123123_2" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="친구들의 출발지를 입력하고 만날장소를 찾아보세요!"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="330dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/list_view_border1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/no_where_input"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/no_login_where" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/friend_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shadow2"
+                android:elevation="2dp"
+                android:fontFamily="@font/test1"
+                android:text="친구추가"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/find_where"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shadow2"
+                android:elevation="2dp"
+                android:fontFamily="@font/test1"
+                android:text="장소찾기"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:id="@+id/text_find_where"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/test1"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:text="장소표시란"/>
+    </LinearLayout>
+
+</RelativeLayout>

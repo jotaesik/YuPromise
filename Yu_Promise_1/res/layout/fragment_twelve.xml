@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/android_lar1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shadow2"
+            android:text="약속을 함께할 친구를 추가해봐요"
+            android:fontFamily="@font/test1"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/friend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:text="친구목록에서 친구 추가"
+                    android:textColor="#6667AB"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/friend_add"
+                    android:layout_width="80dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rectangle_7"
+                    android:elevation="2dp"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:text="친구 추가"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/find_nickname"
+                android:layout_width="185dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginRight="105dp"
+                android:background="@drawable/rectangle_13"
+                android:fontFamily="@font/test1"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:hint="닉네임을 입력"
+                android:textSize="30dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/me_textview"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="85dp"
+                    android:fontFamily="@font/test1"
+                    android:text="나"
+                    android:textSize="30sp" />
+
+                <CheckBox
+                    android:id="@+id/me_checkbox"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="5dp"
+                    android:checked="true"
+                     />
+
+
+
+            </RelativeLayout>
+
+            <ListView
+                android:layout_marginTop="0dp"
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:choiceMode="multipleChoice"
+                tools:listitem="@layout/item_friend1">
+            </ListView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/jsut_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:text="위치로 친구 추가"
+                    android:textColor="#6667AB"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/find_nickname1"
+                    android:layout_width="225dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginRight="90dp"
+                    android:background="@drawable/rectangle_13"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:hint="주소 검색"
+                    android:textSize="30dp" />
+
+                <Button
+                    android:id="@+id/friend_add1"
+                    android:layout_width="70dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="280dp"
+                    android:background="@drawable/rectangle_7"
+                    android:elevation="2dp"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:text="친구 추가"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ListView
+                    android:id="@+id/listView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    tools:listitem="@layout/item_friend">
+                </ListView>
+
+                <TextView
+                    android:id="@+id/friend_number"
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:text="몇명"
+                    android:textColor="#6667AB"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/make_finish"
+                    android:layout_width="116dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginRight="122dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/rectangle_11"
+                    android:elevation="2dp"
+                    android:fontFamily="@font/test1"
+                    android:gravity="center"
+                    android:text="설정완료"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

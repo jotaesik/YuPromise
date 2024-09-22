@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_lar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_lar"
+    android:orientation="vertical"
+    android:clipToOutline="true"
+    android:rotation="0"
+    tools:context=".ThreeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/test1"
+        android:text="회원가입 1단계"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="24dp"/>
+
+    <View
+        android:id="@+id/ellipse_5"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_8"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_9"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+
+
+    <TextView
+        android:id="@+id/id_input_text"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="94dp"
+        android:fontFamily="@font/test1"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="@string/id_input_text"
+        android:textAppearance="@style/id_input_text" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/re1"
+        android:includeFontPadding="false" />
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginRight="88dp"
+        android:background="@null"
+        android:digits="qwertzuiopasdfghjklyxcvbnm0123456789"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:hint="아이디 입력란"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#6667AB"
+        android:textColorHint="#6667AB"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="88dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="확인용"
+        android:textColor="#F44336"
+
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="69dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="261dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_4"
+        android:fontFamily="@font/inter"
+        android:gravity="top"
+        android:text="@string/next"
+        android:textAppearance="@style/next"
+        android:textColor="#6667AB"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="69dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_4"
+        android:fontFamily="@font/inter"
+        android:gravity="top"
+        android:text="@string/back"
+        android:textAppearance="@style/back"
+        android:textColor="#6667AB"
+        android:textStyle="bold" />
+</RelativeLayout>

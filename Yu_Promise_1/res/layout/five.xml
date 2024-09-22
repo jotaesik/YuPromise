@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/android_lar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FiveActivity"
+    android:background="@drawable/android_lar"
+    android:orientation="vertical"
+    android:clipToOutline="true"
+    android:rotation="0">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/test1"
+        android:text="회원가입 3단계"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="24dp"/>
+
+    <View
+        android:id="@+id/ellipse_5"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_8"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/ellipse_9"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/dot_style1"
+        android:elevation="5dp" />
+
+
+    <TextView
+        android:id="@+id/nickname_input_text"
+        android:layout_width="236dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="94dp"
+        android:fontFamily="@font/test1"
+
+        android:gravity="center"
+        android:text="@string/nickname_input_text"
+        android:textAppearance="@style/nickname_input_text"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@drawable/re1"
+        android:includeFontPadding="false" />
+
+
+    <EditText
+        android:id="@+id/edit_nickname"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="98dp"
+        android:background="@null"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:hint="닉네임 입력란"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:text=""
+        android:textColor="#6667AB"
+        android:textColorHint="#6667AB"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result_nickname"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="88dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#F44336"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/test1"
+        android:text="프로필 사진"
+        android:textColor="#6667AB"
+        android:textSize="25dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="135dp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="237dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p_person" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="69dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="261dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_4"
+        android:fontFamily="@font/inter"
+        android:gravity="top"
+        android:text="@string/next"
+        android:textAppearance="@style/next"
+        android:textColor="#6667AB"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="69dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="86dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle_4"
+        android:fontFamily="@font/inter"
+        android:gravity="top"
+        android:textStyle="bold"
+        android:text="@string/back"
+        android:textAppearance="@style/back"
+        android:textColor="#6667AB" />
+
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:clipToPadding="false"
+    android:background="@drawable/android_lar1">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="240dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/test1"
+        android:gravity="top"
+        android:text="@string/text1"
+        android:textAppearance="@style/text1"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/make_promise"
+        android:layout_width="195dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginRight="74dp"
+        android:background="@drawable/shadow1"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="첫 약속 정하기"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="177dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="225dp"
+        android:fontFamily="@font/test1"
+        android:gravity="top"
+        android:text="@string/text2"
+        android:textAppearance="@style/text2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/make_friend"
+        android:layout_width="215dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginRight="74dp"
+        android:background="@drawable/shadow1"
+        android:elevation="10dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="친구추가 하러가기"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/android_lar1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="약속장소를 정해보아요"
+            android:fontFamily="@font/test1"
+            android:background="@drawable/shadow2"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/where_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="추천 장소 선택"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="2"
+            android:background="@drawable/rectangle_7"
+            android:gravity="center"
+            android:fontFamily="@font/test1"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/no_input_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="8"
+
+                android:fontFamily="@font/test1"
+                android:gravity="center"
+                android:text="약속 장소"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/where_button1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="직접 입력"
+            android:layout_weight="2"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rectangle_7"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/input_edittext"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="8"
+                android:layout_marginRight="25dp"
+                android:background="@null"
+                android:fontFamily="@font/test1"
+                android:gravity="center"
+                android:hint="아직 정해지지 않았습니다"
+                android:textColorHint="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="약속날짜와 시간을 정해보아요"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/test1"
+        android:background="@drawable/shadow2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/when"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/test1"
+        android:gravity="top"
+        android:text="날짜를 정해주세요"
+        android:textColor="#6667AB"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/date_button"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rectangle_7"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="약속 날짜 선택"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="아직 정해지지 않았습니다"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/test1"
+        android:gravity="top"
+        android:text="시간을 정해주세요"
+        android:textColor="#6667AB"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/time_button"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rectangle_7"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="약속 시간 선택"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/test1"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="아직 정해지지 않았습니다"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/make_finish"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_7"
+        android:elevation="2dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="설정완료"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

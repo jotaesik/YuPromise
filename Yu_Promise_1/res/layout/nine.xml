@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NineActivity"
+    android:background="@drawable/android_lar1">
+
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/top_bar1" />
+
+    <TextView
+        android:id="@+id/how_many_message"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:hint="매시지개수표시용"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/one_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/message_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/item_message" />
+    </ScrollView>
+
+
+</RelativeLayout>

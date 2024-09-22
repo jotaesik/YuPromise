@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/android_lar1">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.naver.maps.map.MapFragment" />
+
+
+    <TextView
+        android:id="@+id/we_where0"
+        android:layout_width="191.85dp"
+        android:layout_height="34.3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginRight="80dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="@string/we_where"
+        android:textAppearance="@style/we_where"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/list_view_border1">
+
+        <ListView
+            android:id="@+id/listview5"
+            android:layout_width="243dp"
+            android:layout_height="300dp"
+            android:layout_weight="1"
+
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/item_where_place" />
+
+        <TextView
+            android:id="@+id/we_where"
+            android:layout_width="191.85dp"
+            android:layout_height="88dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="약속장소위치"
+            android:textAppearance="@style/we_where"
+            android:textColor="#6667AB"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/we_where1"
+            android:layout_width="191.85dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="17dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="약속장소정보"
+            android:textColor="#6667AA"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/ok_promise"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="223dp"
+            android:background="@drawable/rectangle_14"
+            android:elevation="2dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="확인"
+            android:textColor="#6AD861"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/no_promise"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="223dp"
+            android:background="@drawable/rectangle_14"
+            android:elevation="2dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="취소"
+            android:textColor="#EB7171"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+    <Button
+        android:id="@+id/cancel_promise"
+        android:layout_width="52dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="473dp"
+        android:layout_marginRight="130dp"
+        android:background="@drawable/rectangle_14"
+        android:elevation="2dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="취소"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/android_lar1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약속 장소를 정해볼까요?"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:textColor="#6667AB"
+            android:textSize="30dp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/first_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/rectangle_7"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="중간 지점 찾기"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/test1"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="친구들의 위치에 따라 중간지점을 찾아줘요!!"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/second_button"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/rectangle_7"
+            android:fontFamily="@font/test1"
+            android:text="주변 검색"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/test1"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="xxx님 위치에 따라 장소를 찾아줘요!!"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layout_first">
+        <TextView
+            android:id="@+id/where_hot"
+            android:layout_width="232dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="75dp"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:shadowColor="#33000000"
+            android:shadowDx="4.0"
+            android:shadowDy="4.0"
+            android:shadowRadius="1.0"
+            android:text="@string/where_hot"
+            android:textAppearance="@style/where_hot"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.naver.maps.map.MapFragment"
+                android:layout_width="276dp"
+                android:layout_height="130dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="51dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="51dp"
+                android:elevation="5dp" />
+            <Button
+                android:id="@+id/more_button"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/more"
+                android:gravity="center"
+                android:text="" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <View
+                android:id="@+id/rectangle_18"
+                android:layout_width="302dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="54dp"
+                android:background="@drawable/shadow3" />
+
+            <TextView
+                android:id="@+id/best_where"
+                android:layout_width="100dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="54dp"
+                android:fontFamily="@font/inter"
+                android:gravity="center"
+                android:text="베스트 핫플레이스"
+                android:textAppearance="@style/my_nickname"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:id="@+id/hot_scroll_view"
+                android:layout_width="302dp"
+                android:layout_height="126dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="54dp"
+                android:fillViewport="true">
+
+                <ListView
+                    android:id="@+id/hot_place_listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:choiceMode="singleChoice"
+                    tools:listitem="@layout/item_hot_place" />
+            </ScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

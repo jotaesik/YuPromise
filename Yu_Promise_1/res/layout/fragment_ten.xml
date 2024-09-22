@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/android_lar1">
+
+
+    <TextView
+        android:id="@+id/promise_title"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shadow2"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="확인용"
+        android:textAppearance="@style/text3"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/radio_group">
+        <RadioButton
+            android:fontFamily="@font/test1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/first_button"
+            android:button="@null"
+            android:background="@drawable/checkbox_custom">
+        </RadioButton>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:fontFamily="@font/test1"
+            android:textSize="20dp"
+            android:text="자가용"/>
+        <RadioButton
+            android:fontFamily="@font/test1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/second_button"
+            android:button="@null"
+            android:background="@drawable/checkbox_custom"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/test1"
+                android:text="대중교통"/>
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center_vertical"
+        android:shadowColor="#40000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="시간용"
+        android:textColor="#EC5A5A"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/promise_friend_list"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="76dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shadow2"
+        android:elevation="2dp"
+        android:fontFamily="@font/test1"
+
+        android:text="약속 친구 리스트"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.naver.maps.map.MapFragment"
+        android:layout_width="324dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginRight="13dp" />
+
+    <View
+        android:id="@+id/some_id"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="417dp"
+        android:background="@drawable/ellipse_11"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/to_do_list"
+        android:layout_width="132dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="405dp"
+        android:fontFamily="@font/test1"
+        android:gravity="top"
+        android:text="@string/to_do_list"
+        android:textAppearance="@style/to_do_list"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/to_do_list_add"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/shadow2"
+        android:elevation="2dp"
+        android:fontFamily="@font/test1"
+
+        android:text="할 일 추가"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/alarm_timer"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shadow2"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/alarm_text"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center_vertical"
+        android:shadowColor="#40000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="알람용"
+        android:textColor="#EC5A5A"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/promise_delete_button"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shadow2"
+        android:elevation="2dp"
+        android:fontFamily="@font/test1"
+        android:text="약속 취소"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:id="@+id/one_scroll_view"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginRight="20dp"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/todo_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/item_todo" />
+    </ScrollView>
+
+  
+
+
+
+
+</RelativeLayout>

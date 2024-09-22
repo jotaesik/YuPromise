@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:background="@drawable/custom_layout_line">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/promise_title0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6667AB"
+            android:fontFamily="@font/test1"
+            android:gravity="center"
+            android:text="초대한 친구들"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+        <View
+            android:id="@+id/rectangle_18"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/shadow3" />
+
+        <ListView
+            android:id="@+id/listview7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/item_promise_friend_list" />
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rectangle_21"
+            android:elevation="1dp"
+            android:fontFamily="@font/test1"
+            android:text="닫기"
+            android:textColor="#6AD861"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

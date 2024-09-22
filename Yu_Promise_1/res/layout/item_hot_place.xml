@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5sp">
+
+
+    <TextView
+        android:id="@+id/item_hot_place_name_textview"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/test1"
+        android:textColor="#6667AB"
+        android:text="추천장소"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/item_hot_place_grade_textview"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:focusable="false"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="별점"
+        android:textSize="30sp" />
+</RelativeLayout>

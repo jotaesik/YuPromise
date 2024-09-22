@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/android_lar1">
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.naver.maps.map.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+      />
+
+    <View
+        android:id="@+id/rectangle_18"
+        android:layout_width="302dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rectangle_18" />
+
+    <TextView
+        android:id="@+id/best_where"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="226dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="베스트 핫플레이스"
+        android:textAppearance="@style/my_nickname"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:id="@+id/hot_scroll_view"
+        android:layout_width="302dp"
+        android:layout_height="126dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="100dp"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/hot_place_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            tools:listitem="@layout/item_hot_place" />
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

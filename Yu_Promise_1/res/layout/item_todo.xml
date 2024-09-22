@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5sp">
+
+    <Button
+        android:id="@+id/todo_delete_button"
+        android:layout_width="30dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/delete1"
+        android:focusable="false"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/todo_title"
+        android:layout_width="300dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:hint="해야할일을 입력해주세요"
+        android:maxLength="30"
+        android:maxLines="1" />
+
+
+</RelativeLayout>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/android_lar1">
+
+
+    <View
+        android:id="@+id/rectangle_17"
+        android:layout_width="314dp"
+        android:layout_height="613dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="19dp"
+
+        android:background="@drawable/rectangle_17" />
+
+
+    <TextView
+        android:id="@+id/remake"
+        android:layout_width="150dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginRight="121dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="@string/remake"
+        android:textAppearance="@style/remake"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="120dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ellipse_20">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/my_id"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="138dp"
+        android:fontFamily="@font/test1"
+
+        android:gravity="center"
+        android:text="내 아이디"
+        android:textAppearance="@style/my_nickname"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/remake_nickname"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="241dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="위치 주소"
+        android:textAppearance="@style/my_nickname"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/text_nickname"
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/rectangle_9"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:hint="내 위치 입력"
+        android:maxLength="20"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_result_id"
+        android:layout_width="143dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="273dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="확인용"
+
+        android:textColor="#EC5A5A"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remake_password"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="비밀번호 변경"
+        android:textAppearance="@style/my_nickname"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/remake_edit_password0"
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="297dp"
+        android:background="@drawable/rectangle_9"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:hint="본인 확인 필요"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/check_password0"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="335dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="확인용"
+        android:textColor="#EC5A5A"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remake_password1"
+        android:layout_width="90dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="385dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="비밀번호 변경 확인"
+        android:textAppearance="@style/my_nickname"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/remake_edit_password1"
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="378dp"
+        android:background="@drawable/rectangle_9"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:maxLength="12"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/remake_number"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="462dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="전화번호 변경"
+        android:textAppearance="@style/my_nickname"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/remake_edit_number"
+        android:layout_width="188dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/rectangle_9"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:hint="전화번호 입력"
+        android:inputType="number"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/check_password1"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="419dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="확인용"
+        android:textColor="#EC5A5A"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result_number"
+        android:layout_width="203dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="495dp"
+        android:fontFamily="@font/test1"
+        android:gravity="left"
+        android:text="확인용"
+        android:textColor="#EC5A5A"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/remake_button"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="145dp"
+        android:layout_marginRight="145dp"
+        android:layout_marginBottom="10.5dp"
+        android:background="@drawable/shadow2"
+        android:elevation="2dp"
+        android:fontFamily="@font/test1"
+        android:gravity="center"
+        android:text="수정완료"
+        android:textColor="#FFFFFF"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
