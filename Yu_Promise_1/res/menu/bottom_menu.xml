@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/third_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/third_menu"
+        android:title="메인">
+    </item>
+
+    <item
+        android:id="@+id/second_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/second_menu"
+        android:title="약속하기"
+        />
+
+    <item
+        android:id="@+id/fifth_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/fifth_menu"
+        android:title="핫 플레이스"
+        />
+    <item
+        android:id="@+id/first_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/frist_menu"
+        android:title="친구 관리"
+        />
+
+
+    <item
+        android:id="@+id/fourth_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checked="false"
+        android:icon="@drawable/fourth_menu"
+        android:title="더보기">
+    </item>
+</menu>
