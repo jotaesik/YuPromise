@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NavigateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:layout_weight="3.5">
+
+        <EditText
+            android:id="@+id/startEddr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="출발지 주소"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/goalEddr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="목적지 주소"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/navigateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="길찾기"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:name="com.naver.maps.map.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/naver_map"
+        android:layout_weight="1">
+
+        <com.naver.maps.map.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </fragment>
+
+</LinearLayout>
